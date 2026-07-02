@@ -1,1 +1,1 @@
-/speckit.constitution
+/speckit.constitution React.js frontend (JavaScript, no TypeScript) run locally without Docker; .NET 9 backend in Docker Compose; in-memory data only, no database; JWT always configured, business endpoints require a token (401 without it), public ones may use [AllowAnonymous]; .NET code in full form — controllers, full model/service classes, Program with Main, no minimal API, expression-bodied methods, or record DTOs; new stack gets a .gitignore immediately; reference pattern: GET /api/countries with CountryService + Dockerfile + compose on port 8080.
