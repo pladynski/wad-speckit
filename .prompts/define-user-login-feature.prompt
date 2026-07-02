@@ -1,0 +1,3 @@
+/speckit.specify User should be able to login with username and password and get JWT token
+/speckit.plan <id of req>
+/speckit.tasks <id of req>
